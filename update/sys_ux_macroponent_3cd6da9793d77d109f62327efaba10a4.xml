@@ -1609,6 +1609,644 @@
                         "composition": [
                             {
                                 "definition": {
+                                    "id": "d356d14b6e293a3020a244b63d278d8f",
+                                    "type": "MACROPONENT"
+                                },
+                                "elementId": "list_option_buttons",
+                                "elementLabel": "List option buttons",
+                                "eventMappings": [
+                                    
+                                ],
+                                "isHidden": {
+                                    "type": "JSON_LITERAL",
+                                    "value": null
+                                },
+                                "overrides": {
+                                    "composition": [
+                                        {
+                                            "definition": {
+                                                "id": "d37ce8abca89d02905fed903c8e34d8e",
+                                                "type": "MACROPONENT"
+                                            },
+                                            "elementId": "active_needits_button",
+                                            "elementLabel": "Active NeedIts button",
+                                            "eventMappings": [
+                                                {
+                                                    "eventMappingId": "clrdduoshjaabbdlddffhhpgbbhhiiiitiia",
+                                                    "isConfiguration": false,
+                                                    "offRowStorageId": null,
+                                                    "sourceEventApiName": "sn_button.NOW_BUTTON#CLICKED",
+                                                    "sourceEventCorrelationId": null,
+                                                    "sourceEventDefinition": {
+                                                        "apiName": "sn_button.NOW_BUTTON#CLICKED",
+                                                        "id": null,
+                                                        "type": "UXEVENT"
+                                                    },
+                                                    "sourceEventSysId": null,
+                                                    "targets": [
+                                                        {
+                                                            "broker": null,
+                                                            "clientScript": null,
+                                                            "conditional": null,
+                                                            "declarativeAction": null,
+                                                            "event": {
+                                                                "apiName": "x_58872_needit.UPDATE_LIST_QUERY_AND_TITLE",
+                                                                "payload": {
+                                                                    "type": "JSON_LITERAL",
+                                                                    "value": {
+                                                                        "heListQuery": "active=true",
+                                                                        "heListTitle": "Active NeedIts"
+                                                                    }
+                                                                },
+                                                                "sysId": "d98946d293e331109f62327efaba1011"
+                                                            },
+                                                            "operation": null,
+                                                            "targetId": "clrddveeiiccyaabbknddffhhpinlddaapsb",
+                                                            "type": "EVENT"
+                                                        }
+                                                    ]
+                                                }
+                                            ],
+                                            "isHidden": {
+                                                "type": "JSON_LITERAL",
+                                                "value": null
+                                            },
+                                            "preset": null,
+                                            "propertyValues": {
+                                                "configAria": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": {}
+                                                },
+                                                "disabled": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": false
+                                                },
+                                                "icon": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": null
+                                                },
+                                                "label": {
+                                                    "type": "TRANSLATION_LITERAL",
+                                                    "value": {
+                                                        "code": null,
+                                                        "comment": "",
+                                                        "message": "Active NeedIts"
+                                                    }
+                                                },
+                                                "size": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": "md"
+                                                },
+                                                "tooltipContent": {
+                                                    "type": "TRANSLATION_LITERAL",
+                                                    "value": {
+                                                        "code": null,
+                                                        "comment": "",
+                                                        "message": "View active NeedIt records"
+                                                    }
+                                                },
+                                                "variant": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": "secondary"
+                                                }
+                                            },
+                                            "slot": null,
+                                            "styles": null
+                                        },
+                                        {
+                                            "definition": {
+                                                "id": "d37ce8abca89d02905fed903c8e34d8e",
+                                                "type": "MACROPONENT"
+                                            },
+                                            "elementId": "needits_awaiting_approval_button",
+                                            "elementLabel": "NeedIts Awaiting Approval button",
+                                            "eventMappings": [
+                                                {
+                                                    "eventMappingId": "clrdduiiowsaabbffjjddffhhpqjggyeaafjj",
+                                                    "isConfiguration": false,
+                                                    "offRowStorageId": null,
+                                                    "sourceEventApiName": "sn_button.NOW_BUTTON#CLICKED",
+                                                    "sourceEventCorrelationId": null,
+                                                    "sourceEventDefinition": {
+                                                        "apiName": "sn_button.NOW_BUTTON#CLICKED",
+                                                        "id": null,
+                                                        "type": "UXEVENT"
+                                                    },
+                                                    "sourceEventSysId": null,
+                                                    "targets": [
+                                                        {
+                                                            "broker": null,
+                                                            "clientScript": null,
+                                                            "conditional": null,
+                                                            "declarativeAction": null,
+                                                            "event": {
+                                                                "apiName": "x_58872_needit.UPDATE_LIST_QUERY_AND_TITLE",
+                                                                "payload": {
+                                                                    "type": "JSON_LITERAL",
+                                                                    "value": {
+                                                                        "heListQuery": "state=14^ORDERBYnumber",
+                                                                        "heListTitle": "NeedIts Awaiting Approval"
+                                                                    }
+                                                                },
+                                                                "sysId": "d98946d293e331109f62327efaba1011"
+                                                            },
+                                                            "operation": null,
+                                                            "targetId": "clrddvffddhtaabblzddffhhpefayeniij",
+                                                            "type": "EVENT"
+                                                        }
+                                                    ]
+                                                }
+                                            ],
+                                            "isHidden": {
+                                                "type": "JSON_LITERAL",
+                                                "value": null
+                                            },
+                                            "preset": null,
+                                            "propertyValues": {
+                                                "configAria": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": {}
+                                                },
+                                                "disabled": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": false
+                                                },
+                                                "icon": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": null
+                                                },
+                                                "label": {
+                                                    "type": "TRANSLATION_LITERAL",
+                                                    "value": {
+                                                        "code": null,
+                                                        "comment": "",
+                                                        "message": "NeedIts Awaiting Approval"
+                                                    }
+                                                },
+                                                "size": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": "md"
+                                                },
+                                                "tooltipContent": {
+                                                    "type": "TRANSLATION_LITERAL",
+                                                    "value": {
+                                                        "code": null,
+                                                        "comment": "",
+                                                        "message": "View NeedIt records that need to be approved"
+                                                    }
+                                                },
+                                                "variant": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": "secondary"
+                                                }
+                                            },
+                                            "slot": null,
+                                            "styles": null
+                                        },
+                                        {
+                                            "definition": {
+                                                "id": "d37ce8abca89d02905fed903c8e34d8e",
+                                                "type": "MACROPONENT"
+                                            },
+                                            "elementId": "closed_needits_button",
+                                            "elementLabel": "Closed NeedIts button",
+                                            "eventMappings": [
+                                                {
+                                                    "eventMappingId": "clrdduqfpbbaabbfuddffhhpzoiicuiiccw",
+                                                    "isConfiguration": false,
+                                                    "offRowStorageId": null,
+                                                    "sourceEventApiName": "sn_button.NOW_BUTTON#CLICKED",
+                                                    "sourceEventCorrelationId": null,
+                                                    "sourceEventDefinition": {
+                                                        "apiName": "sn_button.NOW_BUTTON#CLICKED",
+                                                        "id": null,
+                                                        "type": "UXEVENT"
+                                                    },
+                                                    "sourceEventSysId": null,
+                                                    "targets": [
+                                                        {
+                                                            "broker": null,
+                                                            "clientScript": null,
+                                                            "conditional": null,
+                                                            "declarativeAction": null,
+                                                            "event": {
+                                                                "apiName": "x_58872_needit.UPDATE_LIST_QUERY_AND_TITLE",
+                                                                "payload": {
+                                                                    "type": "JSON_LITERAL",
+                                                                    "value": {
+                                                                        "heListQuery": "state=3^ORDERBYDESCnumber",
+                                                                        "heListTitle": "Closed NeedIts"
+                                                                    }
+                                                                },
+                                                                "sysId": "d98946d293e331109f62327efaba1011"
+                                                            },
+                                                            "operation": null,
+                                                            "targetId": "clrddvffpdmaabbneddffhhphhdcciiaiiqb",
+                                                            "type": "EVENT"
+                                                        }
+                                                    ]
+                                                }
+                                            ],
+                                            "isHidden": {
+                                                "type": "JSON_LITERAL",
+                                                "value": null
+                                            },
+                                            "preset": null,
+                                            "propertyValues": {
+                                                "configAria": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": {}
+                                                },
+                                                "disabled": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": false
+                                                },
+                                                "icon": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": null
+                                                },
+                                                "label": {
+                                                    "type": "TRANSLATION_LITERAL",
+                                                    "value": {
+                                                        "code": null,
+                                                        "comment": "",
+                                                        "message": "Closed NeedIts"
+                                                    }
+                                                },
+                                                "size": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": "md"
+                                                },
+                                                "tooltipContent": {
+                                                    "type": "TRANSLATION_LITERAL",
+                                                    "value": {
+                                                        "code": null,
+                                                        "comment": "",
+                                                        "message": "View closed NeedIt records"
+                                                    }
+                                                },
+                                                "variant": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": "secondary"
+                                                }
+                                            },
+                                            "slot": null,
+                                            "styles": null
+                                        }
+                                    ],
+                                    "layout": {
+                                        "default": {
+                                            "children": null,
+                                            "items": [
+                                                {
+                                                    "element_id": "active_needits_button",
+                                                    "styles": {}
+                                                },
+                                                {
+                                                    "element_id": "needits_awaiting_approval_button",
+                                                    "styles": {}
+                                                },
+                                                {
+                                                    "element_id": "closed_needits_button",
+                                                    "styles": {}
+                                                }
+                                            ],
+                                            "root": null,
+                                            "rules": null,
+                                            "styles": {
+                                                "align-items": "center",
+                                                "flex-direction": "row",
+                                                "justify-content": "space-between",
+                                                "width": "100%"
+                                            },
+                                            "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
+                                            "type": "flex"
+                                        },
+                                        "version": "3.0.0"
+                                    }
+                                },
+                                "preset": null,
+                                "propertyValues": {
+                                    "ariaRegionHeadingLevel": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "1"
+                                    },
+                                    "ariaRegionName": {
+                                        "type": "TRANSLATION_LITERAL",
+                                        "value": {
+                                            "code": null,
+                                            "comment": "",
+                                            "message": ""
+                                        }
+                                    },
+                                    "ariaRole": {
+                                        "type": "JSON_LITERAL",
+                                        "value": ""
+                                    },
+                                    "hideEmptyStateUi": {
+                                        "type": "JSON_LITERAL",
+                                        "value": true
+                                    },
+                                    "includeAriaHeading": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "slotWrapperBehavior": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "fullheight"
+                                    },
+                                    "type": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "section"
+                                    }
+                                },
+                                "slot": null,
+                                "styles": null
+                            },
+                            {
+                                "definition": {
+                                    "id": "d356d14b6e293a3020a244b63d278d8f",
+                                    "type": "MACROPONENT"
+                                },
+                                "elementId": "list_option_radio_buttons",
+                                "elementLabel": "List option radio buttons",
+                                "eventMappings": [
+                                    
+                                ],
+                                "isHidden": {
+                                    "type": "JSON_LITERAL",
+                                    "value": null
+                                },
+                                "overrides": {
+                                    "composition": [
+                                        {
+                                            "definition": {
+                                                "id": "7c55543779712b34de393138bc014575",
+                                                "type": "MACROPONENT"
+                                            },
+                                            "elementId": "request_type_radio_buttons",
+                                            "elementLabel": "Request Type radio buttons",
+                                            "eventMappings": [
+                                                {
+                                                    "eventMappingId": "clrddxddbbcchaaaaiiwddffhhplgncnxiii",
+                                                    "isConfiguration": false,
+                                                    "offRowStorageId": null,
+                                                    "sourceEventApiName": "sn_radio_buttons.NOW_RADIO_BUTTONS#VALUE_SET",
+                                                    "sourceEventCorrelationId": null,
+                                                    "sourceEventDefinition": {
+                                                        "apiName": "sn_radio_buttons.NOW_RADIO_BUTTONS#VALUE_SET",
+                                                        "id": null,
+                                                        "type": "UXEVENT"
+                                                    },
+                                                    "sourceEventSysId": null,
+                                                    "targets": [
+                                                        {
+                                                            "broker": null,
+                                                            "clientScript": null,
+                                                            "conditional": null,
+                                                            "declarativeAction": null,
+                                                            "event": {
+                                                                "apiName": "x_58872_needit.UPDATE_LIST_QUERY_AND_TITLE",
+                                                                "payload": {
+                                                                    "container": {
+                                                                        "heListQuery": {
+                                                                            "binding": {
+                                                                                "address": [
+                                                                                    "value"
+                                                                                ]
+                                                                            },
+                                                                            "type": "EVENT_PAYLOAD_BINDING"
+                                                                        },
+                                                                        "heListTitle": {
+                                                                            "type": "JSON_LITERAL",
+                                                                            "value": ""
+                                                                        }
+                                                                    },
+                                                                    "type": "MAP_CONTAINER"
+                                                                },
+                                                                "sysId": "d98946d293e331109f62327efaba1011"
+                                                            },
+                                                            "operation": null,
+                                                            "targetId": "clrddxddbbcchaaaaiixddffhhpccffajhojjd",
+                                                            "type": "EVENT"
+                                                        }
+                                                    ]
+                                                }
+                                            ],
+                                            "isHidden": {
+                                                "type": "JSON_LITERAL",
+                                                "value": null
+                                            },
+                                            "preset": null,
+                                            "propertyValues": {
+                                                "disabled": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": false
+                                                },
+                                                "fieldLayout": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": {
+                                                        "layout": "vertical"
+                                                    }
+                                                },
+                                                "helperContent": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": null
+                                                },
+                                                "hideRequiredIndicator": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": false
+                                                },
+                                                "invalid": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": false
+                                                },
+                                                "label": {
+                                                    "type": "TRANSLATION_LITERAL",
+                                                    "value": {
+                                                        "code": null,
+                                                        "comment": "",
+                                                        "message": "Request type to view:"
+                                                    }
+                                                },
+                                                "layout": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": "horizontal"
+                                                },
+                                                "messages": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": [
+                                                        
+                                                    ]
+                                                },
+                                                "name": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": "reqType"
+                                                },
+                                                "optional": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": false
+                                                },
+                                                "options": {
+                                                    "container": [
+                                                        {
+                                                            "container": {
+                                                                "checked": {
+                                                                    "type": "JSON_LITERAL",
+                                                                    "value": true
+                                                                },
+                                                                "id": {
+                                                                    "type": "JSON_LITERAL",
+                                                                    "value": "all"
+                                                                },
+                                                                "label": {
+                                                                    "type": "TRANSLATION_LITERAL",
+                                                                    "value": {
+                                                                        "code": null,
+                                                                        "comment": "",
+                                                                        "message": "All"
+                                                                    }
+                                                                }
+                                                            },
+                                                            "type": "MAP_CONTAINER"
+                                                        },
+                                                        {
+                                                            "container": {
+                                                                "id": {
+                                                                    "type": "JSON_LITERAL",
+                                                                    "value": "legal"
+                                                                },
+                                                                "label": {
+                                                                    "type": "TRANSLATION_LITERAL",
+                                                                    "value": {
+                                                                        "code": null,
+                                                                        "comment": "",
+                                                                        "message": "Legal"
+                                                                    }
+                                                                }
+                                                            },
+                                                            "type": "MAP_CONTAINER"
+                                                        },
+                                                        {
+                                                            "container": {
+                                                                "id": {
+                                                                    "type": "JSON_LITERAL",
+                                                                    "value": "facilities"
+                                                                },
+                                                                "label": {
+                                                                    "type": "TRANSLATION_LITERAL",
+                                                                    "value": {
+                                                                        "code": null,
+                                                                        "comment": "",
+                                                                        "message": "Facilities"
+                                                                    }
+                                                                }
+                                                            },
+                                                            "type": "MAP_CONTAINER"
+                                                        },
+                                                        {
+                                                            "container": {
+                                                                "id": {
+                                                                    "type": "JSON_LITERAL",
+                                                                    "value": "hr"
+                                                                },
+                                                                "label": {
+                                                                    "type": "TRANSLATION_LITERAL",
+                                                                    "value": {
+                                                                        "code": null,
+                                                                        "comment": "",
+                                                                        "message": "Human Resources"
+                                                                    }
+                                                                }
+                                                            },
+                                                            "type": "MAP_CONTAINER"
+                                                        }
+                                                    ],
+                                                    "type": "LIST_CONTAINER"
+                                                },
+                                                "readonly": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": false
+                                                },
+                                                "required": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": false
+                                                },
+                                                "size": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": "md"
+                                                },
+                                                "value": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": "all"
+                                                }
+                                            },
+                                            "slot": null,
+                                            "styles": null
+                                        }
+                                    ],
+                                    "layout": {
+                                        "default": {
+                                            "children": null,
+                                            "items": [
+                                                {
+                                                    "element_id": "request_type_radio_buttons",
+                                                    "styles": {
+                                                        "align-self": "center"
+                                                    }
+                                                }
+                                            ],
+                                            "root": null,
+                                            "rules": null,
+                                            "styles": {
+                                                "flex-direction": "row"
+                                            },
+                                            "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
+                                            "type": "flex"
+                                        },
+                                        "version": "3.0.0"
+                                    }
+                                },
+                                "preset": null,
+                                "propertyValues": {
+                                    "ariaRegionHeadingLevel": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "1"
+                                    },
+                                    "ariaRegionName": {
+                                        "type": "TRANSLATION_LITERAL",
+                                        "value": {
+                                            "code": null,
+                                            "comment": "",
+                                            "message": ""
+                                        }
+                                    },
+                                    "ariaRole": {
+                                        "type": "JSON_LITERAL",
+                                        "value": ""
+                                    },
+                                    "hideEmptyStateUi": {
+                                        "type": "JSON_LITERAL",
+                                        "value": true
+                                    },
+                                    "includeAriaHeading": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "slotWrapperBehavior": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "fullheight"
+                                    },
+                                    "type": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "section"
+                                    }
+                                },
+                                "slot": null,
+                                "styles": null
+                            },
+                            {
+                                "definition": {
                                     "id": "2b1c080881e05dc63b917044290b233f",
                                     "type": "MACROPONENT"
                                 },
@@ -1854,8 +2492,12 @@
                                         "value": "number,short_description,u_request_type,u_requested_for"
                                     },
                                     "fixedQuery": {
-                                        "type": "JSON_LITERAL",
-                                        "value": "active=true"
+                                        "binding": {
+                                            "address": [
+                                                "listQuery"
+                                            ]
+                                        },
+                                        "type": "STATE_BINDING"
                                     },
                                     "groupByField": {
                                         "type": "JSON_LITERAL",
@@ -1955,12 +2597,12 @@
                                         "value": 10
                                     },
                                     "listTitle": {
-                                        "type": "TRANSLATION_LITERAL",
-                                        "value": {
-                                            "code": null,
-                                            "comment": "",
-                                            "message": "All Active Tasks"
-                                        }
+                                        "binding": {
+                                            "address": [
+                                                "listTitle"
+                                            ]
+                                        },
+                                        "type": "STATE_BINDING"
                                     },
                                     "maxCharLimit": {
                                         "type": "JSON_LITERAL",
@@ -1999,6 +2641,16 @@
                             "default": {
                                 "children": null,
                                 "items": [
+                                    {
+                                        "element_id": "list_option_buttons",
+                                        "styles": {}
+                                    },
+                                    {
+                                        "element_id": "list_option_radio_buttons",
+                                        "styles": {
+                                            "width": "100%"
+                                        }
+                                    },
                                     {
                                         "element_id": "all_active_needits",
                                         "styles": {}
@@ -2126,10 +2778,29 @@
         <ext_controller_dep/>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
         <extension_point/>
-        <handled_events/>
+        <handled_events>d98946d293e331109f62327efaba1011</handled_events>
         <interactions/>
         <interfaces/>
-        <internal_event_mappings>{}</internal_event_mappings>
+        <internal_event_mappings>{
+    "x_58872_needit.UPDATE_LIST_QUERY_AND_TITLE": [
+        {
+            "broker": null,
+            "clientScript": {
+                "payload": {
+                    "type": "JSON_LITERAL",
+                    "value": {}
+                },
+                "sysId": "0adfd652936731109f62327efaba1069"
+            },
+            "conditional": null,
+            "declarativeAction": null,
+            "event": null,
+            "operation": null,
+            "targetId": "clrddwggzabbaaaaecddffhhphhofahhgqf",
+            "type": "CLIENT_SCRIPT"
+        }
+    ]
+}</internal_event_mappings>
         <layout>{
     "default": {
         "children": null,
@@ -2174,10 +2845,25 @@
     
 ]</props>
         <required_translations>[ {
+  "message" : "Active NeedIts",
+  "comment" : ""
+}, {
   "message" : "Active NeedIts by Request type",
   "comment" : ""
 }, {
-  "message" : "All Active Tasks",
+  "message" : "All",
+  "comment" : ""
+}, {
+  "message" : "Closed NeedIts",
+  "comment" : ""
+}, {
+  "message" : "Facilities",
+  "comment" : ""
+}, {
+  "message" : "Human Resources",
+  "comment" : ""
+}, {
+  "message" : "Legal",
   "comment" : ""
 }, {
   "message" : "NeedIt",
@@ -2186,32 +2872,66 @@
   "message" : "NeedIt Logo",
   "comment" : ""
 }, {
+  "message" : "NeedIts Awaiting Approval",
+  "comment" : ""
+}, {
   "message" : "No data available.",
   "comment" : ""
 }, {
   "message" : "Overdue NeedIts",
   "comment" : ""
 }, {
+  "message" : "Request type to view:",
+  "comment" : ""
+}, {
   "message" : "The NeedIt Experience",
+  "comment" : ""
+}, {
+  "message" : "View NeedIt records that need to be approved",
+  "comment" : ""
+}, {
+  "message" : "View active NeedIt records",
+  "comment" : ""
+}, {
+  "message" : "View closed NeedIt records",
   "comment" : ""
 } ]</required_translations>
         <root_component/>
         <root_component_config/>
         <root_component_definition/>
         <schema_version>1.0.0</schema_version>
-        <state_properties/>
+        <state_properties>[
+    {
+        "initialValue": {
+            "type": "JSON_LITERAL",
+            "value": "active=true"
+        },
+        "name": "listQuery",
+        "shape": "",
+        "valueType": "string"
+    },
+    {
+        "initialValue": {
+            "type": "JSON_LITERAL",
+            "value": "Active NeedIts"
+        },
+        "name": "listTitle",
+        "shape": "",
+        "valueType": "string"
+    }
+]</state_properties>
         <sys_class_name>sys_ux_macroponent</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-12-29 10:59:49</sys_created_on>
         <sys_id>3cd6da9793d77d109f62327efaba10a4</sys_id>
-        <sys_mod_count>34</sys_mod_count>
+        <sys_mod_count>68</sys_mod_count>
         <sys_name>NeedIt Admin home</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_ux_macroponent_3cd6da9793d77d109f62327efaba10a4</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-07 18:18:49</sys_updated_on>
+        <sys_updated_on>2024-01-07 20:04:24</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=3cd6da9793d77d109f62327efaba10a4"/>
 </record_update>
